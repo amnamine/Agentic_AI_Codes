@@ -174,7 +174,7 @@ st.markdown("""
 
 # ----------------- VECTOR STORE LOADER -----------------
 
-INDEX_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_Agent_RAG\faiss_index"
+INDEX_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\4-Travel_RAG\faiss_index"
 
 @st.cache_resource(show_spinner="Loading Semantic Vector Store (all-MiniLM-L6-v2)...")
 def load_vector_store():

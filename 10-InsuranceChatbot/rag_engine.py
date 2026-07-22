@@ -4,8 +4,8 @@ import numpy as np
 import chromadb
 from chromadb.utils import embedding_functions
 
-CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\insuranceCHatbot\insurance.csv"
-CHROMA_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\insuranceCHatbot\chroma_db"
+CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\10-InsuranceChatbot\insurance.csv"
+CHROMA_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\10-InsuranceChatbot\chroma_db"
 
 def init_vector_db(force_rebuild=False, sample_per_intent=150):
     """

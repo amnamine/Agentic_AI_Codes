@@ -137,7 +137,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Dataset Path
-CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\insuranceCHatbot\insurance.csv"
+CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\10-InsuranceChatbot\insurance.csv"
 
 @st.cache_resource
 def get_db():

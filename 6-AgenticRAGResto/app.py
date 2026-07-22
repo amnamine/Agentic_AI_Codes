@@ -160,7 +160,7 @@ st.markdown("""
 # Hardcoded Groq API Key
 GROQ_API_KEY = ""
 MODEL_NAME = "llama-3.3-70b-versatile"
-CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_AGENT_resto\restaurants.csv"
+CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\6-AgenticRAGResto\restaurants.csv"
 INDEX_PATH = "faiss_index"
 
 # ----------------- VECTOR DATABASE SETUP -----------------

@@ -10,8 +10,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 
 def main():
-    csv_path = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_Agent_RAG\travel.csv"
-    index_path = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_Agent_RAG\faiss_index"
+    csv_path = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\4-Travel_RAG\travel.csv"
+    index_path = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\4-Travel_RAG\faiss_index"
     
     print("Loading travel.csv...")
     start_time = time.time()

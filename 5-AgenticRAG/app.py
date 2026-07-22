@@ -215,8 +215,8 @@ st.markdown("""
 
 # ----------------- VECTOR STORE & CSV LOADER -----------------
 
-CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_Agent_AgenticRAG\ecommerce.csv"
-INDEX_DIR = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\AI_Agent_AgenticRAG\faiss_index"
+CSV_PATH = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\5-AgenticRAG\ecommerce.csv"
+INDEX_DIR = r"d:\AMINE2\COURS FAC\LEARNING\YOUTUBER\Codes\5-AgenticRAG\faiss_index"
 
 @st.cache_resource(show_spinner="Initializing Vector DB & E-Commerce catalog...")
 def init_rag_knowledge_base():
